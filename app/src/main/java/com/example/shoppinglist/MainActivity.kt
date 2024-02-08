@@ -125,14 +125,7 @@ fun ShoppingList() {
                     ) {
                         Text(text = "Update")
                     }
-                    //Button(
-                    //    onClick = {
-                    //        onDelete()
-                    //        showEditingDialog = false
-                    //    },
-                    //) {
-                    //    Text(text = "Delete")
-                    //}
+                    
                 }
             },
             title = { Text(text = "Edit Item") },
