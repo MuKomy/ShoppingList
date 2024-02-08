@@ -83,7 +83,6 @@ fun ShoppingList() {
     var textValue by remember { mutableStateOf("") }
     var quantityValue by remember { mutableStateOf("") }
     var showEditingDialog  by remember { mutableStateOf(false) }
-    //var quantityValueToInt by remember { mutableIntStateOf( quantityValue.toInt()) }
     var quantityValueToInt = quantityValue.toIntOrNull() ?:0
     var editingValues by remember { mutableStateOf( ShoppingItems( 0, "editingValues", 0, false ))}
 
