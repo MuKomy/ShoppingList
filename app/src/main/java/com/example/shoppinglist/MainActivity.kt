@@ -192,7 +192,6 @@ fun ShoppingList() {
 
 
                     },
-                    //modifier = Modifier.align(Alignment.CenterEnd)
                 )
                 {
                     Text(text = "Add")
